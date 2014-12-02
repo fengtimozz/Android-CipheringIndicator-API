@@ -29,8 +29,10 @@ thanks
 >I doubt cipher is even in Google's closed-source Android, unless someone knows of public, "vanilla" releases that expose this information.  We could reverse-engineer it.  Some manufacturers put it in their own builds (MTK and Samsung? I think you guys have said so), which we might RE into a general solution for the underlying basebands.
 joey
 
+
 >you need to find a way to get this info from BP to AP
 andre
+
 
 >...requires baseband support
 thegrugq
