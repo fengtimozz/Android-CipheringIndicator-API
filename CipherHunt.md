@@ -12,19 +12,19 @@ Still unclear where low level network information can be pulled.  Some debate as
 
 >I found android.telephony and android.telephony.gsm packages and some vendor >specific cipher modules, but I am really not familiar with these 	>modules. Nick should be able to give better suggestions.
 
-#### [Kayash](mkayyash@google.com) - Telephony
+#### [Kayash](mailto:mkayyash@google.com) - Telephony
 
 * [android/platform/.../internal/ telephony/gsm/GSMPhone.java](https://android.googlesource.com/platform/frameworks/opt/telephony/+/83a97603d6e38ca5600cc12780fbfbee0cfe483f/src/java/com/android/internal/telephony/gsm/GSMPhone.java#106)
 
 >Thanks Matas, I'm more of a kernel guy, so I forwarded this message to our Android Telephony Team who can help you better.
 
-#### [Andrew](anwlee@google.com)  - Telephony
+#### [Andrew](mailto:anwlee@google.com)  - Telephony
 
 * [android/platform/packages/services/Telephony/master](https://android.googlesource.com/platform/packages/services/Telephony/+/master)
 
 >Willing to help. Wanted to talk to Nick, fowarded nick email.
 
-####  [Baligh](baligh@google.com)
+####  [Baligh](mailto:baligh@google.com)
 
 * [android/platform/packages/services/Telecomm/master](https://android.googlesource.com/platform/packages/services/Telecomm/+/master)
 
