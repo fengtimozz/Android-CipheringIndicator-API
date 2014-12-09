@@ -24,14 +24,19 @@ The "Ciphering Indication Feature" is not only missing in Android, but is also o
 
 >All GSM crypto is broken. Furthermore, the same keys are used for A5/1, A5/2, A5/3, and GPRS, i.e. it is sufficient to get the phone to use one of the weakers ciphers and break that. Most phones are happy to use A5/2 if the base station requests it, and it can be trivially broken in less than a second with no precomputations or memory required, ie a man-in-the-middle attack can be used to get the keys which can then be used to decipher any communication made with any stronger ciphers (it's a bit more complicated, but only a bit, see http://cryptome.org/gsm-crack-bbk.pdf for the full story. Section 5 describes the attack on "any cipher").
 
+---
+
 * A5/0: No ciphering at all
 * [A5/1](https://en.wikipedia.org/wiki/A5/1): Strong(er) ciphering, intended for use in North America and Europe
 * [A5/2](https://en.wikipedia.org/wiki/A5/2): Weak ciphering, intended for use in other parts of the world, now deprecated
 * [A5/3](https://en.wikipedia.org/wiki/A5/3): Even "stronger" ciphering with open design
 
+---
+
 * :warning: [Operation Auroragold: How the NSA Hacks Cellphone Networks Worldwide](https://firstlook.org/theintercept/2014/12/04/nsa-auroragold-hack-cellphones/)
 * :warning: Known attacks on A5/3 (KASUMI): "[OPULENT PUP](https://firstlook.org/theintercept/document/2014/12/04/opulent-pup-encryption-attack/)" and "[WOLFRAMITE](https://firstlook.org/theintercept/document/2014/12/04/wolframite-encryption-attack)")
 
+---
 
 ```
 B.1.26	Ciphering Indicator
@@ -68,6 +73,8 @@ From: Nick 11/19/2014
 >All of our code is in the Android open source project, so a lot of documents, like how to build Android, are already available. I believe it's a simple matter of plumbing the cipher mode from the underlying code to an application accessible API, but I could be wrong.
 
 >So far, there's really no other information about this feature, other than what's in the bug. I would suggest using the bug to collect the information.
+
+---
 
 #### DEVELOPMENT ROADMAP
 
