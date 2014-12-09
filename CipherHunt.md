@@ -37,20 +37,23 @@ Still unclear where low level network information can be pulled.  Some debate as
 Here are some theories we've collected. If you have one too (or know the truth) let us know!
 
 >I doubt cipher is even in Google's closed-source Android, unless someone knows of public, "vanilla" releases that expose this information. We could reverse-engineer it. Some manufacturers put it in their own builds (MTK and Samsung? I think you guys have said so), which we might RE into a general solution for the underlying basebands.
+
 -joey
 
 >You need to find a way to get this info from BP to AP
+
 -andre
 
 >...requires baseband support
+
 -thegrugq
 
 ---
 
 ## Resources:
 
-* http://www.kandroid.org/online-pdk/guide/telephony.html
-* http://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html
-* Maybe contact the Qualcomm baseband team? Note: They will likely not respond.
+* [Radio Layer Interface | Android Open Source](http://www.kandroid.org/online-pdk/guide/telephony.html)
+* [Using SIM card as secure element in Android](http://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html)
+* Qualcomm baseband team? Note: They will likely not respond.
 * JOAO: [Low Level Network Information](https://groups.google.com/forum/#!topic/android-platform/tVyNMnXtcEI)
 * [E:V:A](https://github.com/E3V3A): [SEEK for Android](https://groups.google.com/forum/#!topic/seek-for-android/OALRa9EBxMI)
