@@ -1,28 +1,32 @@
 ## CURRENT STATUS
 
-Still unclear where low level network information can be pulled.  Some debate as to whether it can somehow be pulled from RIL / Telephony or whether it needs to come from the BP (Baseband Processor).
+Still unclear where low level network information can be pulled.  Some debate as to whether it can somehow be pulled from RIL / Telephony or whether it needs to come from the BP (Baseband Processor). This page reflects our hard hunt.
 
 ---
 
 ## WHERE?
 
 #### [Chin-Hung](mailto:chh@google.com) - RIL
-##### https://android.googlesource.com/platform/hardware/ril/+/master
+
+* [android/platform/hardware/ril/master](https://android.googlesource.com/platform/hardware/ril/+/master)
 
 >I found android.telephony and android.telephony.gsm packages and some vendor >specific cipher modules, but I am really not familiar with these 	>modules. Nick should be able to give better suggestions.
 
 #### [Kayash](mkayyash@google.com) - Telephony
-##### https://android.googlesource.com/platform/frameworks/opt/telephony/+/83a97603d6e38ca5600cc12780fbfbee0cfe483f/src/java/com/android/internal/telephony/gsm/GSMPhone.java#106
+
+* [android/platform/.../internal/ telephony/gsm/GSMPhone.java](https://android.googlesource.com/platform/frameworks/opt/telephony/+/83a97603d6e38ca5600cc12780fbfbee0cfe483f/src/java/com/android/internal/telephony/gsm/GSMPhone.java#106)
 
 >Thanks Matas, I'm more of a kernel guy, so I forwarded this message to our Android Telephony Team who can help you better.
 
 #### [Andrew](anwlee@google.com)  - Telephony
-##### https://android.googlesource.com/platform/packages/services/Telephony/+/master
+
+* [android/platform/packages/services/Telephony/master](https://android.googlesource.com/platform/packages/services/Telephony/+/master)
 
 >Willing to help. Wanted to talk to Nick, fowarded nick email.
 
 ####  [Baligh](baligh@google.com)
-##### https://android.googlesource.com/platform/packages/services/Telecomm/+/master
+
+* [android/platform/packages/services/Telecomm/master](https://android.googlesource.com/platform/packages/services/Telecomm/+/master)
 
 >Hello Sir, I am sorry I am unable to help on this issue. Please contact Nick directly. Thanks.
 
@@ -48,9 +52,5 @@ Here are some theories we've collected. If you have one too (or know the truth) 
 * http://www.kandroid.org/online-pdk/guide/telephony.html
 * http://nelenkov.blogspot.com/2013/09/using-sim-card-as-secure-element.html
 * Maybe contact the Qualcomm baseband team? Note: They will likely not respond.
-
-JOAO:  LOW LEVEL NETWORK INFORMATION
-https://groups.google.com/forum/#!topic/android-platform/tVyNMnXtcEI
-
-[E:V:A](https://github.com/E3V3A): SEEK for ANDROID
-https://groups.google.com/forum/#!topic/seek-for-android/OALRa9EBxMI
+* JOAO: [Low Level Network Information](https://groups.google.com/forum/#!topic/android-platform/tVyNMnXtcEI)
+* [E:V:A](https://github.com/E3V3A): [SEEK for Android](https://groups.google.com/forum/#!topic/seek-for-android/OALRa9EBxMI)
