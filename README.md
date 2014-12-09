@@ -1,6 +1,6 @@
 #### ANDROID PROJECT TO CREATE AN API FOR [ANDROID ISSUE #5353](https://code.google.com/p/android/issues/detail?id=5353)
 
-![Ciphering](http://fs1.d-h.st/view/L6I/00153/ciphering.png)
+[![Ciphering](http://fs1.d-h.st/view/L6I/00153/ciphering.png)](https://code.google.com/p/android/issues/detail?id=5353)
 
 * **PRE-ALPHA** - SEEKING KICKSTARTER FUNDING AND DEVELOPERS
 * KICKSTARTER: [Android Privacy Indicator - Identify Cell Network Tampering](https://www.kickstarter.com/projects/1760935672/android-cipher-indicator-identify-cell-network-tam)
@@ -33,8 +33,10 @@ The "Ciphering Indication Feature" is not only missing in Android, but is also o
 
 ---
 
+Some attacks recently revealed ([many more exist](http://cryptome.org/0001/gsm-a5-files.htm)):
+
 * :warning: [Operation Auroragold: How the NSA Hacks Cellphone Networks Worldwide](https://firstlook.org/theintercept/2014/12/04/nsa-auroragold-hack-cellphones/)
-* :warning: Known attacks on A5/3 (KASUMI): "[OPULENT PUP](https://firstlook.org/theintercept/document/2014/12/04/opulent-pup-encryption-attack/)" and "[WOLFRAMITE](https://firstlook.org/theintercept/document/2014/12/04/wolframite-encryption-attack)")
+* :warning: Known attacks on A5/3 (KASUMI): "[OPULENT PUP](https://firstlook.org/theintercept/document/2014/12/04/opulent-pup-encryption-attack/)" and "[WOLFRAMITE](https://firstlook.org/theintercept/document/2014/12/04/wolframite-encryption-attack)"
 
 ---
 
@@ -60,7 +62,7 @@ Think of it like the green lock icon you see when you visit your banks website. 
 
 So please don't be afraid to contribute - it's worth the effort!
 
-![CipheringNotPrivided](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CipheringNotProvided.jpg/200px-CipheringNotProvided.jpg) ![UnencryptedConnection](http://fs1.d-h.st/view/2ifR/00153/unencrypted.png) ![Ciphering Unavailable](http://i50.fastpic.ru/big/2012/1207/bc/79126b9dfabba04aff00d3409165bebc.png)
+[![CipheringNotPrivided](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CipheringNotProvided.jpg/200px-CipheringNotProvided.jpg)](https://en.wikipedia.org/wiki/A5/1#Security) [![UnencryptedConnection](http://fs1.d-h.st/view/2ifR/00153/unencrypted.png)](http://forum.xda-developers.com/showthread.php?t=2034450) [![Ciphering Unavailable](http://i50.fastpic.ru/big/2012/1207/bc/79126b9dfabba04aff00d3409165bebc.png)](http://en.wikipedia.org/wiki/Crypto_phone)
 
 ---
 
