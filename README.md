@@ -14,7 +14,7 @@ Cell phone calls are typically encrypted as they travel through the air. In some
 
 But yet Android itself lacks an API to indicate that you may have connected to a rogue tower or that voice encryption has been disabled. [Android Issue #5353](https://code.google.com/p/android/issues/detail?id=5353) has been open and is known to Google since 2009. It was created in an attempt to notify Google of the lack of an indicator notifying you if encryption is currently enabled and if so what encryption algorithm is being used. Even though the [GSM 02.07 specification (Version 7.1.0 Release 1998)](http://www.3gpp.org/ftp/Specs/archive/02_series/02.07/0207-710.zip) lists the Ciphering Indicator as a required part of the GSM, it has been ignored until Nick from the Android Security Team [responded](https://code.google.com/p/android/issues/detail?id=5353#c12).
 
-The "Ciphering Indication Feature" is not only missing in Android, but is also often suppressed by the network provider by setting the OFM (Operational Feature Monitor) bit in the "administrative data" field (EFAD, see GSM 11.11, 10.3.18) on the SIM card, in order to make IMEI/IMSI catchers (GSM interceptors) invisible for the phone user. Usually the Ciphering Indicator is turned off and you cannot modify the administrative data in the SIM. Our API shall detect that.
+The "Ciphering Indication Feature" is not only missing in Android, but is also often suppressed by the network provider by setting the OFM (Operational Feature Monitor) bit in the "administrative data" field (EFAD, see GSM 11.11, 10.3.18) on the SIM card, in order to make IMEI/IMSI catchers (GSM interceptors) invisible for the phone user. Usually the Ciphering Indicator is turned off and you cannot modify the administrative data in the SIM. Our API shall detect whenever the Ciphering is turned off for whatever reason.
 
 ---
 
@@ -26,8 +26,11 @@ The "Ciphering Indication Feature" is not only missing in Android, but is also o
 
 * A5/0: No ciphering at all
 * [A5/1](https://en.wikipedia.org/wiki/A5/1): Strong(er) ciphering, intended for use in North America and Europe
-* [A5/2](https://en.wikipedia.org/wiki/A5/2): Weak ciphering, intended for use in other parts of the world, but now deprecated by the GSMA
-* [A5/3](https://en.wikipedia.org/wiki/A5/3): Even stronger ciphering with open design (GHCQ Attacks: "[OPULENT PUP](https://firstlook.org/theintercept/document/2014/12/04/opulent-pup-encryption-attack/)" and "[WOLFRAMITE](https://firstlook.org/theintercept/document/2014/12/04/wolframite-encryption-attack)")
+* [A5/2](https://en.wikipedia.org/wiki/A5/2): Weak ciphering, intended for use in other parts of the world, now deprecated
+* [A5/3](https://en.wikipedia.org/wiki/A5/3): Even "stronger" ciphering with open design
+
+* :warning: [Operation Auroragold: How the NSA Hacks Cellphone Networks Worldwide](https://firstlook.org/theintercept/2014/12/04/nsa-auroragold-hack-cellphones/)
+* :warning: Known attacks on A5/3 (KASUMI): "[OPULENT PUP](https://firstlook.org/theintercept/document/2014/12/04/opulent-pup-encryption-attack/)" and "[WOLFRAMITE](https://firstlook.org/theintercept/document/2014/12/04/wolframite-encryption-attack)")
 
 
 ```
@@ -48,7 +51,9 @@ Ciphering itself is unaffected by this feature, and the user can choose
 how to proceed.
 ```
 
-Think of it like the green lock icon you see when you visit your banks website. To finally make this missing Ciphering Indicator come to life on Android, this repository is meant to craft the API and let it be added to AOSP when finished. This will essentially improve Android for everyone. So please don't be afraid to contribute - it's worth the effort!
+Think of it like the green lock icon you see when you visit your banks website. To finally make this missing Ciphering Indicator come to life on Android, this repository is meant to craft the API and let it be added to AOSP when finished. This will essentially improve Android for everyone.
+
+So please don't be afraid to contribute - it's worth the effort!
 
 ![CipheringNotPrivided](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CipheringNotProvided.jpg/200px-CipheringNotProvided.jpg) ![UnencryptedConnection](http://fs1.d-h.st/view/2ifR/00153/unencrypted.png) ![Ciphering Unavailable](http://i50.fastpic.ru/big/2012/1207/bc/79126b9dfabba04aff00d3409165bebc.png)
 
