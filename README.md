@@ -1,6 +1,6 @@
 #### ANDROID PROJECT TO CREATE AN API FOR [ANDROID ISSUE #5353](https://code.google.com/p/android/issues/detail?id=5353)
 
-[![Ciphering](http://fs1.d-h.st/view/L6I/00153/ciphering.png)](https://code.google.com/p/android/issues/detail?id=5353)
+[![Ciphering](https://github.com/SecUpwN/Android-CipheringIndicator-API/raw/master/DOCUMENTATION/Ciphering/Ciphering.png)](https://code.google.com/p/android/issues/detail?id=5353)
 
 * **PRE-ALPHA** - SEEKING KICKSTARTER FUNDING AND DEVELOPERS
 * KICKSTARTER: [Android Privacy Indicator - Identify Cell Network Tampering](https://www.kickstarter.com/projects/1760935672/android-cipher-indicator-identify-cell-network-tam)
@@ -62,7 +62,7 @@ Think of it like the green lock icon you see when you visit your banks website. 
 
 So please don't be afraid to contribute - it's worth the effort!
 
-[![CipheringNotPrivided](https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/CipheringNotProvided.jpg/200px-CipheringNotProvided.jpg)](https://en.wikipedia.org/wiki/A5/1#Security) [![UnencryptedConnection](http://fs1.d-h.st/view/2ifR/00153/unencrypted.png)](http://en.wikipedia.org/wiki/Crypto_phone) [![Ciphering Unavailable](http://i50.fastpic.ru/big/2012/1207/bc/79126b9dfabba04aff00d3409165bebc.png)](http://forum.xda-developers.com/showthread.php?t=2034450)
+[![CipheringNotPrivided](https://github.com/SecUpwN/Android-CipheringIndicator-API/raw/master/DOCUMENTATION/Ciphering/CipheringNotProvided.jpg)](https://en.wikipedia.org/wiki/A5/1#Security) [![UnencryptedConnection](https://github.com/SecUpwN/Android-CipheringIndicator-API/raw/master/DOCUMENTATION/Ciphering/UnencryptedConnection.png)](http://en.wikipedia.org/wiki/Crypto_phone) [![Ciphering Unavailable](https://github.com/SecUpwN/Android-CipheringIndicator-API/raw/master/DOCUMENTATION/Ciphering/CipheringUnavailable.png)](http://forum.xda-developers.com/showthread.php?t=2034450)
 
 ---
 
